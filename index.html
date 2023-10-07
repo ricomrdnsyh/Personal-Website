@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio</title>
+
+    <!--- custom css link -->
+    <link rel="stylesheet" href="style/style.css" />
+
+    <!--- google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!--- #MAIN -->
+    <main>
+      <!-- #SIDEBAR -->
+
+      <aside class="sidebar" data-sidebar>
+        <div class="sidebar-info">
+          <figure class="avatar-box">
+            <img src="img/profil.png" alt="Rico Mardiansyah" width="80" />
+          </figure>
+
+          <div class="info-content">
+            <h1 class="name" title="Rico Mardiansyah">Rico Mardiansyah</h1>
+
+            <p class="title">Fullstack Development</p>
+          </div>
+
+          <button class="info_more-btn" data-sidebar-btn>
+            <span>Show Contacts</span>
+
+            <ion-icon name="chevron-down"></ion-icon>
+          </button>
+        </div>
+
+        <div class="sidebar-info_more">
+          <div class="separator"></div>
+
+          <ul class="contacts-list">
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Email</p>
+
+                <a href="ricomardiansyah27@gmail.com" class="contact-link"
+                  >ricomardiansyah27<br />
+                  @gmail.com</a
+                >
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="phone-portrait-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Phone</p>
+
+                <a href="tel:+6285230143125" class="contact-link"
+                  >+6285230143125</a
+                >
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Location</p>
+
+                <address>Paiton, Indonesia</address>
+              </div>
+            </li>
+          </ul>
+
+          <div class="separator"></div>
+
+          <ul class="social-list">
+            <li class="social-item">
+              <a
+                href="https://www.facebook.com/rico.arlz.3"
+                class="social-link"
+              >
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a
+                href="https://www.instagram.com/ricomrdnsyh/"
+                class="social-link"
+              >
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a
+                href="https://www.linkedin.com/in/ricomardiansyah/"
+                class="social-link"
+              >
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a href="https://github.com/ricomrdnsyh" class="social-link">
+                <ion-icon name="logo-github"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </aside>
+
+      <!-- #main-content -->
+
+      <div class="main-content">
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <button class="navbar-link active" data-nav-link>About</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Resume</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Portfolio</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Blog</button>
+            </li>
+          </ul>
+        </nav>
+
+      <!-- #ABOUT -->
+
+      <article class="about active" data-page="about">
+          <header>
+            <h2 class="h2 article-title">About me</h2>
+          </header>
+
+          <section class="about-text">
+            <p>
+              I am an active student in the 5th semester of the 
+              Informatics Engineering Study Program at Nurul Jadid University. 
+              Currently I am taking independent studies at Skilvul Tech4Impact
+            </p>
+
+            <p>
+              I have high motivation and enthusiasm for learning. I like interacting
+               with everyone, and I have the will to always learn to improve myself, 
+               I am a person who is responsible for tasks and work and I have good communication skills.
+            </p>
+          </section>
+
+      <!-- service -->
+
+      <section class="service">
+
+          <h3 class="h3 service-title">What I Do</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="img/icon-design.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">UI/UX Design</h4>
+
+                <p class="service-item-text">
+                  The most modern and high-quality design made at a intermediate level.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="img/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">WEB Developer</h4>
+
+                <p class="service-item-text">
+                  High-quality development of sites at the entry level.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="img/icon-photo.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Photography</h4>
+
+                <p class="service-item-text">
+                  I make high-quality photos of any category at a intermediate level.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </section>
+
+      <!-- Gallery -->
+
+      <section class="clients">
+            <h3 class="h3 clients-title">Gallery</h3>
+
+            <ul class="clients-list has-scrollbar">
+              <li class="clients-item">
+                <a href="#">
+                  <img src="img/galeri1.JPG" alt="client logo" />
+                </a>
+              </li>
+
+              <li class="clients-item">
+                <a href="#">
+                  <img src="img/galeri2.jpg" alt="client logo" />
+                </a>
+              </li>
+
+              <li class="clients-item">
+                <a href="#">
+                  <img src="img/galeri3.JPG" alt="client logo" />
+                </a>
+              </li>
+
+              <li class="clients-item">
+                <a href="#">
+                  <img src="img/galeri4.jpg" alt="client logo" />
+                </a>
+              </li>
+
+              <li class="clients-item">
+                <a href="#">
+                  <img src="img/galeri5.jpg" alt="client logo" />
+                </a>
+              </li>
+
+              <li class="clients-item">
+                <a href="#">
+                  <img src="img/galeri6.jpg" alt="client logo" />
+                </a>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+      <!-- #RESUME -->
+
+      <article class="resume" data-page="resume">
+          <header>
+            <h2 class="h2 article-title">Resume</h2>
+          </header>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Education</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Universitas Nurul Jadid</h4>
+
+                <span>2021 — 2025</span>
+
+                <p class="timeline-text">Teknik Informatika</p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">SMK Negeri 2 Kraksaan</h4>
+
+                <span>2018 — 2021</span>
+
+                <p class="timeline-text">Rekayasa Perangkat Lunak</p>
+              </li>
+            </ol>
+          </section>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Internship Experience</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Customer Service PMB UNUJA
+                </h4>
+
+                <span>2021 — Sekarang</span>
+
+                <p class="timeline-text">
+                  Serving or helping prospective students who want 
+                  to register at Nurul Jadid University
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Swirty Computer</h4>
+
+                <span>Januari — Juni 2020</span>
+
+                <p class="timeline-text">
+                  Serving users who need computer service, laptop service, printer service, 
+                  reinstalling Windows, and providing procurement of electronic goods
+                </p>
+              </li>
+            </ol>
+          </section>
+
+          <section class="skill">
+            <h3 class="h3 skills-title">My skills</h3>
+
+            <ul class="skills-list content-card">
+              <li class="skills-item"></li>
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">HTML</h5>
+                  <data value="90">90%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 90%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">CSS</h5>
+                  <data value="70">70%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 70%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Javascript</h5>
+                  <data value="50">50%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 50%"></div>
+                </div>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+      <!-- #PORTFOLIO -->
+
+      <article class="portfolio" data-page="portfolio">
+          <header>
+            <h2 class="h2 article-title">Portfolio</h2>
+          </header>
+
+          <section class="projects">
+            <div class="filter-select-box">
+              <button class="filter-select" data-select>
+                <div class="select-value" data-selecct-value>
+                  Kategori
+                </div>
+            </div>
+
+            <ul class="project-list">
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="building drawing"
+              >
+                <a href="https://ricomrdnsyh.github.io/Landing-page-skilpath-skilvul/">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img src="img/umkm.jpg" alt="finance" loading="lazy" />
+                  </figure>
+
+                  <h3 class="project-title">UMKM Grow</h3>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="building drawing"
+              >
+                <a href="https://ricomrdnsyh.github.io/BMI-Kalkulator/">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img src="img/bmi.jpg" alt="orizon" loading="lazy" />
+                  </figure>
+
+                  <h3 class="project-title">BMI Kalkulator</h3>
+                </a>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+      <!-- #BLOG -->
+
+      <article class="blog" data-page="blog">
+          <header>
+            <h2 class="h2 article-title">Blog</h2>
+          </header>
+
+          <section class="blog-posts">
+            <ul class="blog-posts-list">
+              <li class="blog-post-item">
+                <a href="https://skilvul.com/blogs/raih-pekerjaan-impian-di-tengah-keterbatasan-fisik">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="img/blog1.jpg"
+                      alt="Design conferences in 2022"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Mia Dewandani</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2022-02-23">March 20, 2023</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">
+                      Raih Pekerjaan Impian di Tengah Keterbatasan Fisik
+                    </h3>
+
+                    <p class="blog-text">
+                      Keterbatasan memunculkan stigma terhadap kelompok difabel, 
+                      namun menjadi individu dengan disabilitas tidak menjadikan 
+                      Dolos putus asa dengan keterbatasan untuk meraih pekerjaan impiannya.
+                    </p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a href="https://skilvul.com/blogs/cara-bangun-portfolio-uiux-design-pertama">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="img/blog2.jpg"
+                      alt="Design conferences in 2022"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Mia Dewandani</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2022-02-23">Feb 23, 2023</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">
+                      Cara Bangun Portfolio UI/UX Design Pertama
+                    </h3>
+
+                    <p class="blog-text">
+                      Sobat Skilvul, apakah kalian sudah tahu kalau
+                      pekerjaan sebagai UI/UX Designer menjadi yang paling dicari saat ini hingga di masa mendatang?
+                    </p>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </section>
+        </article>
+      </div>
+    </main>
+
+    <!-- custom js link -->
+    <script src="js/script.js"></script>
+
+    <!-- ionicon link -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
